@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar li {
+    padding: 10px;
+    position: relative; /* For dropdown positioning */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .navbar li:hover .dropdown-content {
+    display: block;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+  }
+  .dropdown-content a {
+    color: #fff;
+    display: block;
+    padding: 8px 0;
+  }
+  .dropdown-content a:hover {
+    background-color: #575757;
+  }
+  .navbar .icons {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .icons i {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .logo {
+    height: 40px; /* Adjust the height as needed */
+  }
+  .dropdown-icon {
+    margin-left: 5px;
+  }
+  .logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon, .cart-icon {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+    .main-heading {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 90px;
+        font-weight: 300;
+        font-family: 'Gambarino, sans-serif';
+    }
+
+    .heading1 {
+        font-size: 37px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        font-family: 'Gambarino, sans-serif';
+    }
+
+    .parah1 {
+        font-size: 17px;
+        color: rgb(66, 66, 66);
+        font-family: 'Roboto';
+        margin-top: 0px;
+    }
+
+    .parah2{
+        font-size: 17px;
+        color: rgb(66, 66, 66);
+        font-family: 'Roboto';
+    }
+
+    .list {
+        font-size: 17px;
+        color: rgb(66, 66, 66);
+        font-family: 'Roboto';
+    }
+
+    .list1 {
+        margin-bottom: 20px;
+    }
+
+    .line {
+        text-decoration: underline;
+    }
+
+    .line1 {
+        font-style: italic;
+    }
+
+    .line2{
+        font-weight: bold;
+    }
+
+    body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     .footer-item-2 a,.footer-item-3 a,.footer-item a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    .footer-item-2 a:hover,.footer-item-3 a:hover,.footer-item a:hover{
+        text-decoration: underline;
+    }
+    .container{
+         display: flex;
+        
+        justify-content: space-evenly;
+        
+        background-color: #f8f6f6;
+        padding: 50px 0 50px 0;
+    }
+    .col-1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    form{
+        background-color: transparent;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 30px;
+        display: flex;
+        outline: none;
+        
+    }
+    form input{
+        /* padding: 15px; */
+         border: none;
+        outline:none;
+        background: #f8f6f6;
+        padding: 10px 20px 10px 20px;
+    }
+    form .subscribe-button{
+        background-color: black;
+        color: white;
+        border: none;
+        outline: none;
+        
+    }
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-item-2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .one{
+        padding-left: 35px;
+    }
+    
+    span{
+        padding-left: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    .bottom{
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        margin-top: 20px;
+    }
+    .buttom {
+        
+        margin-top: 70px;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
